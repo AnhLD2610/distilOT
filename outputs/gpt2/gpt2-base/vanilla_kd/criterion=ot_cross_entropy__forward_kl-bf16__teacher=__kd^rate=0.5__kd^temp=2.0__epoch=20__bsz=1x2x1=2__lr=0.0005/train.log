@@ -1,0 +1,94 @@
+[2024-10-30 19:58:57,121] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Traceback (most recent call last):
+  File "/media/data/thanhnb/Bi/DSKD/code/distillation.py", line 30, in <module>
+    from criterions import build_criterion
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/__init__.py", line 6, in <module>
+    from .min_edit_dis_kld import MinEditDisForwardKLD
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/min_edit_dis_kld.py", line 7, in <module>
+    import editdistance
+ModuleNotFoundError: No module named 'editdistance'
+[2024-10-30 19:59:09,945] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Traceback (most recent call last):
+  File "/media/data/thanhnb/Bi/DSKD/code/distillation.py", line 30, in <module>
+    from criterions import build_criterion
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/__init__.py", line 6, in <module>
+    from .min_edit_dis_kld import MinEditDisForwardKLD
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/min_edit_dis_kld.py", line 7, in <module>
+    import editdistance
+ModuleNotFoundError: No module named 'editdistance'
+[2024-10-30 19:59:37,678] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-10-30 19:59:37,686] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Traceback (most recent call last):
+  File "/media/data/thanhnb/Bi/DSKD/code/distillation.py", line 30, in <module>
+    from criterions import build_criterion
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/__init__.py", line 6, in <module>
+    from .min_edit_dis_kld import MinEditDisForwardKLD
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/min_edit_dis_kld.py", line 7, in <module>
+    import editdistance
+ModuleNotFoundError: No module named 'editdistance'
+Traceback (most recent call last):
+  File "/media/data/thanhnb/Bi/DSKD/code/distillation.py", line 30, in <module>
+    from criterions import build_criterion
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/__init__.py", line 6, in <module>
+    from .min_edit_dis_kld import MinEditDisForwardKLD
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/min_edit_dis_kld.py", line 7, in <module>
+    import editdistance
+ModuleNotFoundError: No module named 'editdistance'
+[2024-10-30 19:59:38,724] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Traceback (most recent call last):
+  File "/media/data/thanhnb/Bi/DSKD/code/distillation.py", line 30, in <module>
+    from criterions import build_criterion
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/__init__.py", line 6, in <module>
+    from .min_edit_dis_kld import MinEditDisForwardKLD
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/min_edit_dis_kld.py", line 7, in <module>
+    import editdistance
+ModuleNotFoundError: No module named 'editdistance'
+[2024-11-01 11:29:52,012] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Traceback (most recent call last):
+  File "/media/data/thanhnb/Bi/DSKD/code/distillation.py", line 30, in <module>
+    from criterions import build_criterion
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/__init__.py", line 4, in <module>
+    from .dual_space_kd_with_cross_model_attention import DualSpaceKDWithCMA
+ImportError: cannot import name 'DualSpaceKDWithCMA' from 'criterions.dual_space_kd_with_cross_model_attention' (/media/data/thanhnb/Bi/DSKD/code/criterions/dual_space_kd_with_cross_model_attention.py)
+[2024-11-01 11:56:44,483] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Traceback (most recent call last):
+  File "/media/data/thanhnb/Bi/DSKD/code/distillation.py", line 30, in <module>
+    from criterions import build_criterion
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/__init__.py", line 4, in <module>
+    from .dual_space_kd_with_cross_model_attention import DualSpaceKDWithCMA
+ImportError: cannot import name 'DualSpaceKDWithCMA' from 'criterions.dual_space_kd_with_cross_model_attention' (/media/data/thanhnb/Bi/DSKD/code/criterions/dual_space_kd_with_cross_model_attention.py)
+[2024-11-01 11:57:04,888] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Traceback (most recent call last):
+  File "/media/data/thanhnb/Bi/DSKD/code/distillation.py", line 30, in <module>
+    from criterions import build_criterion
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/__init__.py", line 4, in <module>
+    from .dual_space_kd_with_cross_model_attention import DualSpaceKDWithCMA
+ImportError: cannot import name 'DualSpaceKDWithCMA' from 'criterions.dual_space_kd_with_cross_model_attention' (/media/data/thanhnb/Bi/DSKD/code/criterions/dual_space_kd_with_cross_model_attention.py)
+[2024-11-01 12:00:55,604] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Traceback (most recent call last):
+  File "/media/data/thanhnb/Bi/DSKD/code/distillation.py", line 30, in <module>
+    from criterions import build_criterion
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/__init__.py", line 4, in <module>
+    from .dual_space_kd_with_cross_model_attention import DualSpaceKDWithCMA
+ImportError: cannot import name 'DualSpaceKDWithCMA' from 'criterions.dual_space_kd_with_cross_model_attention' (/media/data/thanhnb/Bi/DSKD/code/criterions/dual_space_kd_with_cross_model_attention.py)
+[2024-11-01 12:01:38,753] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Traceback (most recent call last):
+  File "/media/data/thanhnb/Bi/DSKD/code/distillation.py", line 30, in <module>
+    from criterions import build_criterion
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/__init__.py", line 4, in <module>
+    from .dual_space_kd_with_cross_model_attention import DualSpaceKDWithCMA
+ImportError: cannot import name 'DualSpaceKDWithCMA' from 'criterions.dual_space_kd_with_cross_model_attention' (/media/data/thanhnb/Bi/DSKD/code/criterions/dual_space_kd_with_cross_model_attention.py)
+[2024-11-01 12:01:48,646] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Traceback (most recent call last):
+  File "/media/data/thanhnb/Bi/DSKD/code/distillation.py", line 30, in <module>
+    from criterions import build_criterion
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/__init__.py", line 4, in <module>
+    from .dual_space_kd_with_cross_model_attention import DualSpaceKDWithCMA
+ImportError: cannot import name 'DualSpaceKDWithCMA' from 'criterions.dual_space_kd_with_cross_model_attention' (/media/data/thanhnb/Bi/DSKD/code/criterions/dual_space_kd_with_cross_model_attention.py)
+[2024-11-01 12:04:50,390] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Traceback (most recent call last):
+  File "/media/data/thanhnb/Bi/DSKD/code/distillation.py", line 30, in <module>
+    from criterions import build_criterion
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/__init__.py", line 4, in <module>
+    from .dual_space_kd_with_cross_model_attention import DualSpaceKDWithCMA
+ImportError: cannot import name 'DualSpaceKDWithCMA' from 'criterions.dual_space_kd_with_cross_model_attention' (/media/data/thanhnb/Bi/DSKD/code/criterions/dual_space_kd_with_cross_model_attention.py)

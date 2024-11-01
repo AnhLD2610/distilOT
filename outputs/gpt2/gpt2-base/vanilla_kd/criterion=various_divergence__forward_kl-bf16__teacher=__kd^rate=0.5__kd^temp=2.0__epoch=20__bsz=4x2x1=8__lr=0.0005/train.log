@@ -1,0 +1,702 @@
+[2024-10-30 19:36:33,379] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Traceback (most recent call last):
+  File "/media/data/thanhnb/Bi/DSKD/code/distillation.py", line 30, in <module>
+    from criterions import build_criterion
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/__init__.py", line 6, in <module>
+    from .min_edit_dis_kld import MinEditDisForwardKLD
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/min_edit_dis_kld.py", line 7, in <module>
+    import editdistance
+ModuleNotFoundError: No module named 'editdistance'
+E1030 19:36:41.671000 139695361896512 torch/distributed/elastic/multiprocessing/api.py:826] failed (exitcode: 1) local_rank: 0 (pid: 2707309) of binary: /media/data/thanhnb/Bi/.venv/bin/python
+Traceback (most recent call last):
+  File "/media/data/thanhnb/Bi/.venv/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 347, in wrapper
+    return f(*args, **kwargs)
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/run.py", line 879, in main
+    run(args)
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/run.py", line 870, in run
+    elastic_launch(
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 132, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 263, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+/media/data/thanhnb/Bi/DSKD/code/distillation.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-10-30_19:36:41
+  host      : quangnh
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 2707309)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+[2024-10-30 19:38:32,316] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Traceback (most recent call last):
+  File "/media/data/thanhnb/Bi/DSKD/code/distillation.py", line 30, in <module>
+    from criterions import build_criterion
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/__init__.py", line 6, in <module>
+    from .min_edit_dis_kld import MinEditDisForwardKLD
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/min_edit_dis_kld.py", line 7, in <module>
+    import editdistance
+ModuleNotFoundError: No module named 'editdistance'
+E1030 19:38:35.972000 139719200358464 torch/distributed/elastic/multiprocessing/api.py:826] failed (exitcode: 1) local_rank: 0 (pid: 2708637) of binary: /media/data/thanhnb/Bi/.venv/bin/python
+Traceback (most recent call last):
+  File "/media/data/thanhnb/Bi/.venv/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 347, in wrapper
+    return f(*args, **kwargs)
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/run.py", line 879, in main
+    run(args)
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/run.py", line 870, in run
+    elastic_launch(
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 132, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 263, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+/media/data/thanhnb/Bi/DSKD/code/distillation.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-10-30_19:38:35
+  host      : quangnh
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 2708637)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+[2024-10-30 19:38:46,481] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Traceback (most recent call last):
+  File "/media/data/thanhnb/Bi/DSKD/code/distillation.py", line 30, in <module>
+    from criterions import build_criterion
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/__init__.py", line 6, in <module>
+    from .min_edit_dis_kld import MinEditDisForwardKLD
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/min_edit_dis_kld.py", line 7, in <module>
+    import editdistance
+ModuleNotFoundError: No module named 'editdistance'
+E1030 19:38:49.524000 140149319749696 torch/distributed/elastic/multiprocessing/api.py:826] failed (exitcode: 1) local_rank: 0 (pid: 2708872) of binary: /media/data/thanhnb/Bi/.venv/bin/python
+Traceback (most recent call last):
+  File "/media/data/thanhnb/Bi/.venv/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 347, in wrapper
+    return f(*args, **kwargs)
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/run.py", line 879, in main
+    run(args)
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/run.py", line 870, in run
+    elastic_launch(
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 132, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 263, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+/media/data/thanhnb/Bi/DSKD/code/distillation.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-10-30_19:38:49
+  host      : quangnh
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 2708872)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+[2024-10-30 19:39:47,305] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Traceback (most recent call last):
+  File "/media/data/thanhnb/Bi/DSKD/code/distillation.py", line 30, in <module>
+    from criterions import build_criterion
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/__init__.py", line 6, in <module>
+    from .min_edit_dis_kld import MinEditDisForwardKLD
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/min_edit_dis_kld.py", line 7, in <module>
+    import editdistance
+ModuleNotFoundError: No module named 'editdistance'
+E1030 19:39:50.280000 140521299759168 torch/distributed/elastic/multiprocessing/api.py:826] failed (exitcode: 1) local_rank: 0 (pid: 2709518) of binary: /media/data/thanhnb/Bi/.venv/bin/python
+Traceback (most recent call last):
+  File "/media/data/thanhnb/Bi/.venv/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 347, in wrapper
+    return f(*args, **kwargs)
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/run.py", line 879, in main
+    run(args)
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/run.py", line 870, in run
+    elastic_launch(
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 132, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 263, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+/media/data/thanhnb/Bi/DSKD/code/distillation.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-10-30_19:39:50
+  host      : quangnh
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 2709518)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+[2024-10-30 19:41:25,953] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-10-30 19:41:25,982] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-10-30 19:41:26,008] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Traceback (most recent call last):
+  File "/media/data/thanhnb/Bi/DSKD/code/distillation.py", line 30, in <module>
+    from criterions import build_criterion
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/__init__.py", line 6, in <module>
+    from .min_edit_dis_kld import MinEditDisForwardKLD
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/min_edit_dis_kld.py", line 7, in <module>
+    import editdistance
+ModuleNotFoundError: No module named 'editdistance'
+Traceback (most recent call last):
+  File "/media/data/thanhnb/Bi/DSKD/code/distillation.py", line 30, in <module>
+    from criterions import build_criterion
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/__init__.py", line 6, in <module>
+    from .min_edit_dis_kld import MinEditDisForwardKLD
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/min_edit_dis_kld.py", line 7, in <module>
+    import editdistance
+ModuleNotFoundError: No module named 'editdistance'
+Traceback (most recent call last):
+  File "/media/data/thanhnb/Bi/DSKD/code/distillation.py", line 30, in <module>
+    from criterions import build_criterion
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/__init__.py", line 6, in <module>
+    from .min_edit_dis_kld import MinEditDisForwardKLD
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/min_edit_dis_kld.py", line 7, in <module>
+    import editdistance
+ModuleNotFoundError: No module named 'editdistance'
+[2024-10-30 19:41:27,186] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Traceback (most recent call last):
+  File "/media/data/thanhnb/Bi/DSKD/code/distillation.py", line 30, in <module>
+    from criterions import build_criterion
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/__init__.py", line 6, in <module>
+    from .min_edit_dis_kld import MinEditDisForwardKLD
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/min_edit_dis_kld.py", line 7, in <module>
+    import editdistance
+ModuleNotFoundError: No module named 'editdistance'
+E1030 19:41:28.336000 140574322597952 torch/distributed/elastic/multiprocessing/api.py:826] failed (exitcode: 1) local_rank: 0 (pid: 2710578) of binary: /media/data/thanhnb/Bi/.venv/bin/python
+E1030 19:41:28.337000 139806732951616 torch/distributed/elastic/multiprocessing/api.py:826] failed (exitcode: 1) local_rank: 0 (pid: 2710579) of binary: /media/data/thanhnb/Bi/.venv/bin/python
+Traceback (most recent call last):
+  File "/media/data/thanhnb/Bi/.venv/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 347, in wrapper
+    return f(*args, **kwargs)
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/run.py", line 879, in main
+    run(args)
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/run.py", line 870, in run
+Traceback (most recent call last):
+  File "/media/data/thanhnb/Bi/.venv/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 347, in wrapper
+    elastic_launch(
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 132, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 263, in launch_agent
+    return f(*args, **kwargs)
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/run.py", line 879, in main
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+/media/data/thanhnb/Bi/DSKD/code/distillation.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-10-30_19:41:28
+  host      : quangnh
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 2710579)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+    run(args)
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/run.py", line 870, in run
+    elastic_launch(
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 132, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 263, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+/media/data/thanhnb/Bi/DSKD/code/distillation.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-10-30_19:41:28
+  host      : quangnh
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 2710578)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+E1030 19:41:28.340000 140401097142336 torch/distributed/elastic/multiprocessing/api.py:826] failed (exitcode: 1) local_rank: 0 (pid: 2710581) of binary: /media/data/thanhnb/Bi/.venv/bin/python
+Traceback (most recent call last):
+  File "/media/data/thanhnb/Bi/.venv/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 347, in wrapper
+    return f(*args, **kwargs)
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/run.py", line 879, in main
+    run(args)
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/run.py", line 870, in run
+    elastic_launch(
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 132, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 263, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+/media/data/thanhnb/Bi/DSKD/code/distillation.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-10-30_19:41:28
+  host      : quangnh
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 2710581)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+E1030 19:41:30.196000 139775905787968 torch/distributed/elastic/multiprocessing/api.py:826] failed (exitcode: 1) local_rank: 0 (pid: 2710680) of binary: /media/data/thanhnb/Bi/.venv/bin/python
+Traceback (most recent call last):
+  File "/media/data/thanhnb/Bi/.venv/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 347, in wrapper
+    return f(*args, **kwargs)
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/run.py", line 879, in main
+    run(args)
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/run.py", line 870, in run
+    elastic_launch(
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 132, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 263, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+/media/data/thanhnb/Bi/DSKD/code/distillation.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-10-30_19:41:30
+  host      : quangnh
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 2710680)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+[2024-10-30 19:45:49,151] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Traceback (most recent call last):
+  File "/media/data/thanhnb/Bi/DSKD/code/distillation.py", line 30, in <module>
+    from criterions import build_criterion
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/__init__.py", line 6, in <module>
+    from .min_edit_dis_kld import MinEditDisForwardKLD
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/min_edit_dis_kld.py", line 7, in <module>
+    import editdistance
+ModuleNotFoundError: No module named 'editdistance'
+E1030 19:45:52.996000 140649294635072 torch/distributed/elastic/multiprocessing/api.py:826] failed (exitcode: 1) local_rank: 0 (pid: 2713220) of binary: /media/data/thanhnb/Bi/.venv/bin/python
+Traceback (most recent call last):
+  File "/media/data/thanhnb/Bi/.venv/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 347, in wrapper
+    return f(*args, **kwargs)
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/run.py", line 879, in main
+    run(args)
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/run.py", line 870, in run
+    elastic_launch(
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 132, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 263, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+/media/data/thanhnb/Bi/DSKD/code/distillation.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-10-30_19:45:52
+  host      : quangnh
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 2713220)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+[2024-10-30 19:54:16,901] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Traceback (most recent call last):
+  File "/media/data/thanhnb/Bi/DSKD/code/distillation.py", line 30, in <module>
+    from criterions import build_criterion
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/__init__.py", line 6, in <module>
+    from .min_edit_dis_kld import MinEditDisForwardKLD
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/min_edit_dis_kld.py", line 7, in <module>
+    import editdistance
+ModuleNotFoundError: No module named 'editdistance'
+E1030 19:54:25.108000 140457330552896 torch/distributed/elastic/multiprocessing/api.py:826] failed (exitcode: 1) local_rank: 0 (pid: 2718337) of binary: /media/data/thanhnb/Bi/.venv/bin/python
+Traceback (most recent call last):
+  File "/media/data/thanhnb/Bi/.venv/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 347, in wrapper
+    return f(*args, **kwargs)
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/run.py", line 879, in main
+    run(args)
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/run.py", line 870, in run
+    elastic_launch(
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 132, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 263, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+/media/data/thanhnb/Bi/DSKD/code/distillation.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-10-30_19:54:25
+  host      : quangnh
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 2718337)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+[2024-10-30 19:54:56,678] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-10-30 19:54:56,678] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/media/data/thanhnb/Bi/DSKD/code/distillation.py", line 30, in <module>
+  File "/media/data/thanhnb/Bi/DSKD/code/distillation.py", line 30, in <module>
+        from criterions import build_criterionfrom criterions import build_criterion
+
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/__init__.py", line 6, in <module>
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/__init__.py", line 6, in <module>
+        from .min_edit_dis_kld import MinEditDisForwardKLDfrom .min_edit_dis_kld import MinEditDisForwardKLD
+
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/min_edit_dis_kld.py", line 7, in <module>
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/min_edit_dis_kld.py", line 7, in <module>
+        import editdistanceimport editdistance
+
+ModuleNotFoundErrorModuleNotFoundError: : No module named 'editdistance'No module named 'editdistance'
+
+E1030 19:55:03.028000 140576010035264 torch/distributed/elastic/multiprocessing/api.py:826] failed (exitcode: 1) local_rank: 0 (pid: 2718837) of binary: /media/data/thanhnb/Bi/.venv/bin/python
+Traceback (most recent call last):
+  File "/media/data/thanhnb/Bi/.venv/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 347, in wrapper
+    return f(*args, **kwargs)
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/run.py", line 879, in main
+    run(args)
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/run.py", line 870, in run
+    elastic_launch(
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 132, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 263, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+/media/data/thanhnb/Bi/DSKD/code/distillation.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-10-30_19:55:03
+  host      : quangnh
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 2718837)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+E1030 19:55:03.036000 139886074961984 torch/distributed/elastic/multiprocessing/api.py:826] failed (exitcode: 1) local_rank: 0 (pid: 2718839) of binary: /media/data/thanhnb/Bi/.venv/bin/python
+Traceback (most recent call last):
+  File "/media/data/thanhnb/Bi/.venv/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 347, in wrapper
+    return f(*args, **kwargs)
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/run.py", line 879, in main
+    run(args)
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/run.py", line 870, in run
+    elastic_launch(
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 132, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 263, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+/media/data/thanhnb/Bi/DSKD/code/distillation.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-10-30_19:55:03
+  host      : quangnh
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 2718839)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+[2024-10-30 19:55:32,204] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-10-30 19:55:32,204] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Traceback (most recent call last):
+  File "/media/data/thanhnb/Bi/DSKD/code/distillation.py", line 30, in <module>
+    from criterions import build_criterion
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/__init__.py", line 6, in <module>
+    from .min_edit_dis_kld import MinEditDisForwardKLD
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/min_edit_dis_kld.py", line 7, in <module>
+    import editdistance
+ModuleNotFoundError: No module named 'editdistance'
+Traceback (most recent call last):
+  File "/media/data/thanhnb/Bi/DSKD/code/distillation.py", line 30, in <module>
+    from criterions import build_criterion
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/__init__.py", line 6, in <module>
+    from .min_edit_dis_kld import MinEditDisForwardKLD
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/min_edit_dis_kld.py", line 7, in <module>
+    import editdistance
+ModuleNotFoundError: No module named 'editdistance'
+E1030 19:55:34.348000 140442870693952 torch/distributed/elastic/multiprocessing/api.py:826] failed (exitcode: 1) local_rank: 0 (pid: 2719297) of binary: /media/data/thanhnb/Bi/.venv/bin/python
+Traceback (most recent call last):
+  File "/media/data/thanhnb/Bi/.venv/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 347, in wrapper
+    return f(*args, **kwargs)
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/run.py", line 879, in main
+    run(args)
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/run.py", line 870, in run
+    elastic_launch(
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 132, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 263, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+/media/data/thanhnb/Bi/DSKD/code/distillation.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-10-30_19:55:34
+  host      : quangnh
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 2719297)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+E1030 19:55:34.564000 140187119419456 torch/distributed/elastic/multiprocessing/api.py:826] failed (exitcode: 1) local_rank: 0 (pid: 2719299) of binary: /media/data/thanhnb/Bi/.venv/bin/python
+Traceback (most recent call last):
+  File "/media/data/thanhnb/Bi/.venv/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 347, in wrapper
+    return f(*args, **kwargs)
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/run.py", line 879, in main
+    run(args)
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/run.py", line 870, in run
+    elastic_launch(
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 132, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 263, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+/media/data/thanhnb/Bi/DSKD/code/distillation.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-10-30_19:55:34
+  host      : quangnh
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 2719299)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+[2024-10-30 19:55:43,892] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Traceback (most recent call last):
+  File "/media/data/thanhnb/Bi/DSKD/code/distillation.py", line 30, in <module>
+    from criterions import build_criterion
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/__init__.py", line 6, in <module>
+    from .min_edit_dis_kld import MinEditDisForwardKLD
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/min_edit_dis_kld.py", line 7, in <module>
+    import editdistance
+ModuleNotFoundError: No module named 'editdistance'
+E1030 19:55:47.022000 140334357389376 torch/distributed/elastic/multiprocessing/api.py:826] failed (exitcode: 1) local_rank: 0 (pid: 2719505) of binary: /media/data/thanhnb/Bi/.venv/bin/python
+Traceback (most recent call last):
+  File "/media/data/thanhnb/Bi/.venv/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 347, in wrapper
+    return f(*args, **kwargs)
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/run.py", line 879, in main
+    run(args)
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/run.py", line 870, in run
+    elastic_launch(
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 132, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 263, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+/media/data/thanhnb/Bi/DSKD/code/distillation.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-10-30_19:55:47
+  host      : quangnh
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 2719505)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+[2024-10-30 19:57:55,474] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-10-30 19:57:55,474] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Traceback (most recent call last):
+  File "/media/data/thanhnb/Bi/DSKD/code/distillation.py", line 30, in <module>
+Traceback (most recent call last):
+  File "/media/data/thanhnb/Bi/DSKD/code/distillation.py", line 30, in <module>
+    from criterions import build_criterion
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/__init__.py", line 6, in <module>
+        from criterions import build_criterionfrom .min_edit_dis_kld import MinEditDisForwardKLD
+
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/__init__.py", line 6, in <module>
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/min_edit_dis_kld.py", line 7, in <module>
+    from .min_edit_dis_kld import MinEditDisForwardKLD    
+import editdistance  File "/media/data/thanhnb/Bi/DSKD/code/criterions/min_edit_dis_kld.py", line 7, in <module>
+
+ModuleNotFoundError: No module named 'editdistance'
+    import editdistance
+ModuleNotFoundError: No module named 'editdistance'
+E1030 19:58:00.084000 139833469653056 torch/distributed/elastic/multiprocessing/api.py:826] failed (exitcode: 1) local_rank: 0 (pid: 2720833) of binary: /media/data/thanhnb/Bi/.venv/bin/python
+Traceback (most recent call last):
+  File "/media/data/thanhnb/Bi/.venv/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 347, in wrapper
+    return f(*args, **kwargs)
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/run.py", line 879, in main
+    run(args)
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/run.py", line 870, in run
+    elastic_launch(
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 132, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 263, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+/media/data/thanhnb/Bi/DSKD/code/distillation.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-10-30_19:58:00
+  host      : quangnh
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 2720833)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+E1030 19:58:00.086000 140486061797440 torch/distributed/elastic/multiprocessing/api.py:826] failed (exitcode: 1) local_rank: 0 (pid: 2720834) of binary: /media/data/thanhnb/Bi/.venv/bin/python
+Traceback (most recent call last):
+  File "/media/data/thanhnb/Bi/.venv/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 347, in wrapper
+    return f(*args, **kwargs)
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/run.py", line 879, in main
+    run(args)
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/run.py", line 870, in run
+    elastic_launch(
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 132, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 263, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+/media/data/thanhnb/Bi/DSKD/code/distillation.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-10-30_19:58:00
+  host      : quangnh
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 2720834)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+[2024-10-30 19:58:24,603] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Traceback (most recent call last):
+  File "/media/data/thanhnb/Bi/DSKD/code/distillation.py", line 30, in <module>
+    from criterions import build_criterion
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/__init__.py", line 6, in <module>
+    from .min_edit_dis_kld import MinEditDisForwardKLD
+  File "/media/data/thanhnb/Bi/DSKD/code/criterions/min_edit_dis_kld.py", line 7, in <module>
+    import editdistance
+ModuleNotFoundError: No module named 'editdistance'
+E1030 19:58:27.512000 140223883751488 torch/distributed/elastic/multiprocessing/api.py:826] failed (exitcode: 1) local_rank: 0 (pid: 2721206) of binary: /media/data/thanhnb/Bi/.venv/bin/python
+Traceback (most recent call last):
+  File "/media/data/thanhnb/Bi/.venv/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 347, in wrapper
+    return f(*args, **kwargs)
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/run.py", line 879, in main
+    run(args)
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/run.py", line 870, in run
+    elastic_launch(
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 132, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/media/data/thanhnb/Bi/.venv/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 263, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+/media/data/thanhnb/Bi/DSKD/code/distillation.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-10-30_19:58:27
+  host      : quangnh
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 2721206)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
